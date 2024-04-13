@@ -1,28 +1,37 @@
-.house {
-    position: relative;
-    width: 15vw;
-    height: 15vw;
-}
+ .house {
+     position: relative;
+     width: 15vw;
+     height: 15vw;
+ }
 
 .roof {
     position: absolute;
     top: 0.1vw;
-    right: -2vw; /* Немного выходит за границы слева */
-
+    right: -4vw; /* Изменено на отрицательное значение, чтобы верхний угол был левее */
     height: 0;
-    border-left: 10vw solid transparent; /* Левый бордер - треугольник */
-    border-right: 10vw solid transparent; /* Правый бордер - треугольник */
-    border-bottom: 4.5vw solid green; /* Нижний бордер - основание крыши */
+    border-left: 8vw solid transparent; /* Левый бордер - треугольник */
+    border-right: 12vw solid transparent; /* Правый бордер - треугольник */
+    border-bottom: 4.5vw solid #6495ED; /* Нижний бордер - основание крыши */
 }
 
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.container {
+    text-align: center;
+}
 
 .walls {
     position: absolute;
     top: 4.5vw;
     width: 15vw;
     height: 10.5vw;
-    background-color: violet;
+    background-color: 	#CD6090;
 }
 
 .window {
@@ -64,11 +73,11 @@
 
 .door {
     position: absolute;
-    top: 2vw;
+    top: 3.5vw;
     right: 0;
     width: 4vw;
     height: 7vw;
-    background-color: pink;
+    background-color: #8B3A62;
 
 }
 
@@ -81,21 +90,26 @@
     right: 0.7vw;
     top: 50%;
     transform: translateY(-50%);
+
+
 }
 
 .chimney {
     position: absolute;
     top: 0.5vw;
-    left: 9.33vw;
-    width: 1.33vw;
+    left: 12vw;
+    width: 2vw;
     height: 2.67vw;
-    background-color: #888;
+    background-color: 	#CD6090;
+    z-index: -1;
 }
 
 .grass {
     position: absolute;
-    bottom: 0;
-    width: 120%;
-    height: 2vw;
+    top: 70px; /* Выступает сверху */
+    left: -100px; /* Выступает слева */
+    right: -100px; /* Выступает справа */
+    bottom: -25px; /* Выступает снизу */
     background-color: green;
+    z-index: -1;
 }
