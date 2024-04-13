@@ -4,17 +4,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Простой домик</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        .house {
+            position: relative;
+            width: 15vw;
+            height: 15vw;
+        }
+
+        .roof {
+            position: absolute;
+            top: 0.1vw;
+            right: -2vw; /* Немного выходит за границы слева */
+
+            height: 0;
+            border-left: 10vw solid transparent; /* Левый бордер - треугольник */
+            border-right: 10vw solid transparent; /* Правый бордер - треугольник */
+            border-bottom: 4.5vw solid green; /* Нижний бордер - основание крыши */
+        }
+
+
+
+        .walls {
+            position: absolute;
+            top: 4.5vw;
+            width: 15vw;
+            height: 10.5vw;
+            background-color: violet;
+        }
+
+        .window {
+            position: absolute;
+            top: 2vw;
+            left: 1vw;
+            width: 4vw; /* уменьшен размер окна */
+            height: 4vw; /* уменьшен размер окна */
+            background-color: #F5F5DC; /* бежевый цвет окна */
+
+        }
+
+        .pane {
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            border: 0.3vw solid #000;
+        }
+
+        .pane:nth-child(1) {
+            top: 0;
+            left: 0;
+        }
+
+        .pane:nth-child(2) {
+            top: 0;
+            left: 50%;
+        }
+
+        .pane:nth-child(3) {
+            top: 50%;
+            left: 0;
+        }
+
+        .pane:nth-child(4) {
+            top: 50%;
+            left: 50%;
+        }
+
+        .door {
+            position: absolute;
+            top: 2vw;
+            right: 0;
+            width: 4vw;
+            height: 7vw;
+            background-color: pink;
+
+        }
+
+        .handle {
+            position: absolute;
+            width: 0.5vw;
+            height: 0.5vw;
+            background-color: black;
+            border-radius: 50%;
+            right: 0.7vw;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .chimney {
+            position: absolute;
+            top: 0.5vw;
+            left: 9.33vw;
+            width: 1.33vw;
+            height: 2.67vw;
+            background-color: #888;
+        }
+
+        .grass {
+            position: absolute;
+            bottom: 0;
+            width: 120%;
+            height: 2vw;
+            background-color: green;
+        }
+
+
+    </style>
 </head>
 <body>
 <div class="house">
     <div class="roof"></div>
-    <div class="walls"></div>
-    <div class="window">
-        <div class="pane"></div>
-        <div class="pane"></div>
-        <div class="pane"></div>
-        <div class="pane"></div>
+    <div class="walls">
+        <div class="window">
+            <div class="pane"></div>
+            <div class="pane"></div>
+            <div class="pane"></div>
+            <div class="pane"></div>
+        </div>
+        <div class="door">
+            <div class="handle"></div>
+        </div>
     </div>
     <div class="chimney"></div>
     <div class="grass"></div>

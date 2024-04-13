@@ -1,43 +1,45 @@
 .house {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 15vw;
 }
 
 .roof {
     position: absolute;
-    top: 0;
-    width: 0;
+    top: 0.1vw;
+    right: -2vw; /* Немного выходит за границы слева */
+
     height: 0;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 60px solid green;
+    border-left: 10vw solid transparent; /* Левый бордер - треугольник */
+    border-right: 10vw solid transparent; /* Правый бордер - треугольник */
+    border-bottom: 4.5vw solid green; /* Нижний бордер - основание крыши */
 }
+
+
 
 .walls {
     position: absolute;
-    top: 60px;
-    width: 200px;
-    height: 140px;
+    top: 4.5vw;
+    width: 15vw;
+    height: 10.5vw;
     background-color: violet;
 }
 
 .window {
     position: absolute;
-    top: 80px;
-    left: 30px;
-    width: 140px;
-    height: 80px;
-    background-color: #fff;
-    border: 2px solid #000;
-    overflow: hidden;
+    top: 2vw;
+    left: 1vw;
+    width: 4vw; /* уменьшен размер окна */
+    height: 4vw; /* уменьшен размер окна */
+    background-color: #F5F5DC; /* бежевый цвет окна */
+
 }
 
 .pane {
     position: absolute;
     width: 50%;
     height: 50%;
-    border: 2px solid #000;
+    border: 0.3vw solid #000;
 }
 
 .pane:nth-child(1) {
@@ -60,19 +62,40 @@
     left: 50%;
 }
 
+.door {
+    position: absolute;
+    top: 2vw;
+    right: 0;
+    width: 4vw;
+    height: 7vw;
+    background-color: pink;
+
+}
+
+.handle {
+    position: absolute;
+    width: 0.5vw;
+    height: 0.5vw;
+    background-color: black;
+    border-radius: 50%;
+    right: 0.7vw;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .chimney {
     position: absolute;
-    top: 0px;
-    left: 140px;
-    width: 20px;
-    height: 40px;
+    top: 0.5vw;
+    left: 9.33vw;
+    width: 1.33vw;
+    height: 2.67vw;
     background-color: #888;
 }
 
 .grass {
     position: absolute;
     bottom: 0;
-    width: 200%;
-    height: 15px;
+    width: 120%;
+    height: 2vw;
     background-color: green;
 }
