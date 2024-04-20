@@ -1,42 +1,221 @@
-.custom-radio {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+.form_wrapper {
+    width: 400px;
+    height: 400px;
+    margin: auto;
 }
 
-.custom-radio input {
-    opacity: 0;
-    position: absolute;
-}
+.fieldset {
+    border-radius: 10px;
+    border: 1px solid green;
+    padding: 15px;
 
-.custom-radio label {
-    cursor: pointer;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #2fff00; /Зеленая обводка /
-border-radius: 50%;
-    display: inline-block;
-    position: relative;
-}
+    /* Styles for highload1 */
+    #highload1 {
+        display: none;
+    }
 
-.custom-radio label::before {
-    content: '';
-    display: block;
-    width: 12px;
-    height: 12px;
-    background-color: #00ff00; / Зеленый цвет метки /
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0; / Начально скрываем метку /
-}
+    /* Toggle button 1 styles */
+    #highload1 + .lb1 {
+        display: inline-block;
+        position: relative;
+        width: 40px;
+        height: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: #ccc; /* Default background color */
+        transition: all .3s;
+    }
 
-.custom-radio input:checked + label::before {
-    opacity: 1; / Показываем метку при выборе /
-}
+    #highload1:checked + .lb1 {
+        background-color: green; /* Background color when checked */
+    }
 
-.custom-radio span {
-    margin-left: 10px;
-}
+    #highload1 + .lb1::before {
+        display: block;
+        position: absolute;
+        top: 18px;
+        right: 10px;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 19px;
+    }
+
+    #highload1 + .lb1::after {
+        border-radius: 50%;
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        width: 15px;
+        height: 14px;
+        background-color: white;
+        transition: all .3s;
+    }
+
+    #highload1:checked + .lb1::after {
+        left: 22px;
+        background-color: #f7f7f7;
+    }
+
+    #highload1:checked + .lb1::before {
+        color: #fff;
+    }
+
+    /* Styles for highload2 */
+    #highload2 {
+        display: none;
+    }
+
+    /* Toggle button 2 styles */
+    #highload2 + .lb2 {
+        display: inline-block;
+        position: relative;
+        width: 40px;
+        height: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: #ccc; /* Default background color */
+        transition: all .3s;
+    }
+
+    #highload2:checked + .lb2 {
+        background-color: green; /* Background color when checked */
+    }
+
+    #highload2 + .lb2::before {
+        display: block;
+        position: absolute;
+        top: 18px;
+        right: 10px;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 19px;
+    }
+
+    #highload2 + .lb2::after {
+        border-radius: 50%;
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        width: 15px;
+        height: 14px;
+        background-color: white;
+        transition: all .3s;
+    }
+
+    #highload2:checked + .lb2::after {
+        left: 22px;
+        background-color: #f7f7f7;
+    }
+
+    #highload2:checked + .lb2::before {
+        color: #fff;
+    }
+
+    /* Styles for highload3 - similar to highload2 */
+
+    /* Toggle button 3 styles */
+    #highload3 {
+        display: none;
+    }
+
+    #highload3 + .lb3 {
+        display: inline-block;
+        position: relative;
+        width: 40px;
+        height: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: #ccc; /* Default background color */
+        transition: all .3s;
+    }
+
+    #highload3:checked + .lb3 {
+        background-color: green; /* Background color when checked */
+    }
+
+    #highload3 + .lb3::before {
+        display: block;
+        position: absolute;
+        top: 18px;
+        right: 10px;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 19px;
+    }
+
+    #highload3 + .lb3::after {
+        border-radius: 50%;
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        width: 15px;
+        height: 14px;
+        background-color: white;
+        transition: all .3s;
+    }
+
+    #highload3:checked + .lb3::after {
+        left: 22px;
+        background-color: #f7f7f7;
+    }
+
+    #highload3:checked + .lb3::before {
+        color: #fff;
+    }
+
+    /* Styles for highload4 - similar to highload3 */
+
+    /* Toggle button 4 styles */
+    #highload4 {
+        display: none;
+    }
+
+    #highload4 + .lb4 {
+        display: inline-block;
+        position: relative;
+        width: 40px;
+        height: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: #ccc; /* Default background color */
+        transition: all .3s;
+    }
+
+    #highload4:checked + .lb4 {
+        background-color: green; /* Background color when checked */
+    }
+
+    #highload4 + .lb4::before {
+        display: block;
+        position: absolute;
+        top: 18px;
+        right: 10px;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 19px;
+    }
+
+    #highload4 + .lb4::after {
+        border-radius: 50%;
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        width: 15px;
+        height: 14px;
+        background-color: white;
+        transition: all .3s;
+    }
+
+    #highload4:checked + .lb4::after {
+        left: 22px;
+        background-color: #f7f7f7;
+    }
+
+    #highload4:checked + .lb4::before {
+        color: #fff;
+    }
+

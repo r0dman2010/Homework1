@@ -1,25 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Кастомные радиокнопки</title>
-    <link rel="stylesheet" href="1.css">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+</head>
 <body>
+<h2><center>Login</center></h2>
+<div class="form_wrapper">
 
-<div class="custom-radio">
-    <input type="radio" id="radio1" name="customRadio" checked>
-    <label for="radio1"></label>
+    <fieldset class="fieldset">
 
+        <legend>Login</legend>
+
+
+        <form action="/" method="post" >
+            <label for="Login">Login </label>
+            <input type="email" placeholder="user@gmail.com" name="Login" />
+            <br></br>
+            <label for="password">Password </label>
+            <input type="password" placeholder="Enter your password" name="password" />
+            <br></br>
+            <span>Save your login:</span>
+            <br></br>
+
+            <input type="radio" name="highload1" id="highload1" />
+            <label for="highload1" data-onlabel="on" data-offlabel="off" class="lb1"></label>Yes<br></br>
+
+            <input type="radio" name="highload1" id="highload2" />
+            <label for="highload2" data-onlabel="on" data-offlabel="off" class="lb2"></label>No<br></br>
+
+            <span>Send notification:</span>
+            <br></br>
+            <input type="radio" name="highload2" id="highload3" />
+            <label for="highload3" data-onlabel="on" data-offlabel="off" class="lb3"></label>Yes
+            <br></br>
+
+            <input type="radio" name="highload2" id="highload4" />
+            <label for="highload4" data-onlabel="on" data-offlabel="off" class="lb4"></label>No
+            <br></br>
+
+
+
+
+            <input type="submit" value="Login" class="log1" />
+        </form action="/">
+
+    </fieldset>
 </div>
-
-<div class="custom-radio">
-    <input type="radio" id="radio2" name="customRadio">
-    <label for="radio2"></label>
-
-</div>
-
 </body>
-
 </html>
