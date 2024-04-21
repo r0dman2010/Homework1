@@ -113,3 +113,109 @@
         color: #fff;
     }
 
+    /* Styles for highload3 - similar to highload2 */
+
+    /* Toggle button 3 styles */
+    #highload3 {
+        display: none;
+    }
+
+    #highload3 + .lb3 {
+        display: inline-block;
+        position: relative;
+        width: 40px;
+        height: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: #ccc; /* Default background color */
+        transition: all .3s;
+    }
+
+    #highload3:checked + .lb3 {
+        background-color: green; /* Background color when checked */
+    }
+
+    #highload3 + .lb3::before {
+        display: block;
+        position: absolute;
+        top: 18px;
+        right: 10px;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 19px;
+    }
+
+    #highload3 + .lb3::after {
+        border-radius: 50%;
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        width: 15px;
+        height: 14px;
+        background-color: white;
+        transition: all .3s;
+    }
+
+    #highload3:checked + .lb3::after {
+        left: 22px;
+        background-color: #f7f7f7;
+    }
+
+    #highload3:checked + .lb3::before {
+        color: #fff;
+    }
+
+    /* Styles for highload4 - similar to highload3 */
+
+    /* Toggle button 4 styles */
+    #highload4 {
+        display: none;
+    }
+
+    #highload4 + .lb4 {
+        display: inline-block;
+        position: relative;
+        width: 40px;
+        height: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: #ccc; /* Default background color */
+        transition: all .3s;
+    }
+
+    #highload4:checked + .lb4 {
+        background-color: green; /* Background color when checked */
+    }
+
+    #highload4 + .lb4::before {
+        display: block;
+        position: absolute;
+        top: 18px;
+        right: 10px;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 19px;
+    }
+
+    #highload4 + .lb4::after {
+        border-radius: 50%;
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        width: 15px;
+        height: 14px;
+        background-color: white;
+        transition: all .3s;
+    }
+
+    #highload4:checked + .lb4::after {
+        left: 22px;
+        background-color: #f7f7f7;
+    }
+
+    #highload4:checked + .lb4::before {
+        color: #fff;
+    }
+
