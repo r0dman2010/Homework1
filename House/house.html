@@ -7,11 +7,19 @@
     <style>
         .house {
             position: relative;
-            width: 150px;
-            height: 150px;
+            width: 15vw;
+            height: 15vw;
         }
 
-
+        .roof {
+            position: absolute;
+            top: 0.1vw;
+            right: -4vw; /* Изменено на отрицательное значение, чтобы верхний угол был левее */
+            height: 0;
+            border-left: 8vw solid transparent; /* Левый бордер - треугольник */
+            border-right: 12vw solid transparent; /* Правый бордер - треугольник */
+            border-bottom: 4.5vw solid #6495ED; /* Нижний бордер - основание крыши */
+        }
 
         body, html {
             height: 100%;
@@ -21,39 +29,31 @@
             align-items: center;
         }
 
-        .roof {
-            position: absolute;
-            top: -70px;
-            right: -250px; /* Изменено на отрицательное значение, чтобы верхний угол был левее */
-            border-left: 150px solid transparent; /* Левый бордер - треугольник */
-            border-right: 300px solid transparent; /* Правый бордер - треугольник */
-            border-bottom: 120px solid #6495ED; /* Нижний бордер - основание крыши */
-        }
+
 
         .walls {
             position: absolute;
-            top: 45px;
-            width: 300px;
-            height: 300px;
+            top: 4.5vw;
+            width: 15vw;
+            height: 10.5vw;
             background-color: 	#CD6090;
-            z-index: -1;
         }
 
         .window {
             position: absolute;
-            top: 80px;
-            left: 10px;
-            width: 100px; /* уменьшен размер окна */
-            height: 100px; /* уменьшен размер окна */
+            top: 2vw;
+            left: 1vw;
+            width: 4vw; /* уменьшен размер окна */
+            height: 4vw; /* уменьшен размер окна */
             background-color: #F5F5DC; /* бежевый цвет окна */
 
         }
 
         .pane {
             position: absolute;
-            width: 43%;
-            height: 43%;
-            border: 4px solid #000;
+            width: 50%;
+            height: 50%;
+            border: 0.3vw solid #000;
         }
 
         .pane:nth-child(1) {
@@ -78,21 +78,21 @@
 
         .door {
             position: absolute;
-            top: 100px;
+            top: 3.5vw;
             right: 0;
-            width: 80px;
-            height: 200px;
+            width: 4vw;
+            height: 7vw;
             background-color: #8B3A62;
 
         }
 
         .handle {
             position: absolute;
-            width: 5px;
-            height: 5px;
+            width: 0.5vw;
+            height: 0.5vw;
             background-color: black;
             border-radius: 50%;
-            right: 7px ;
+            right: 0.7vw;
             top: 50%;
             transform: translateY(-50%);
 
@@ -101,24 +101,22 @@
 
         .chimney {
             position: absolute;
-            top: -50px;
-            left: 232px;
-            width: 23px;
-            height: 70px;
+            top: 0.5vw;
+            left: 12vw;
+            width: 2vw;
+            height: 2.67vw;
             background-color: 	#CD6090;
             z-index: -1;
         }
 
         .grass {
-            position: absolute ;
-            top: 222px; /* Выступает сверху */
-            left: -61px; /* Выступает слева */
-            right: -230px; /* Выступает справа */
-            bottom: -222px; /* Выступает снизу */
+            position: absolute;
+            top: 200px; /* Выступает сверху */
+            left: -100px; /* Выступает слева */
+            right: -100px; /* Выступает справа */
+            bottom: -50px; /* Выступает снизу */
             background-color: green;
-            z-index: -3;
-
-
+            z-index: -1;
         }
 
 
@@ -141,7 +139,6 @@
     </div>
     <div class="chimney"></div>
     <div class="grass"></div>
-
 </div>
 </body>
 </html>
