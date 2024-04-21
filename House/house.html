@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Простой домик</title>
+    <title>House</title>
     <style>
         .house {
             position: relative;
@@ -11,82 +11,70 @@
             height: 150px;
         }
 
-
-
-        body, html {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .roof {
+        .house__roof {
             position: absolute;
             top: -70px;
-            right: -250px; /* Изменено на отрицательное значение, чтобы верхний угол был левее */
-            border-left: 150px solid transparent; /* Левый бордер - треугольник */
-            border-right: 300px solid transparent; /* Правый бордер - треугольник */
-            border-bottom: 120px solid #6495ED; /* Нижний бордер - основание крыши */
+            left: -250px;
+            border-left: 150px solid transparent;
+            border-right: 300px solid transparent;
+            border-bottom: 120px solid #6495ED;
         }
 
-        .walls {
+        .house__walls {
             position: absolute;
             top: 45px;
             width: 300px;
             height: 300px;
-            background-color: 	#CD6090;
+            background-color: #CD6090;
             z-index: -1;
         }
 
-        .window {
+        .house__window {
             position: absolute;
             top: 80px;
             left: 10px;
-            width: 100px; /* уменьшен размер окна */
-            height: 100px; /* уменьшен размер окна */
-            background-color: #F5F5DC; /* бежевый цвет окна */
-
+            width: 100px;
+            height: 100px;
+            background-color: #F5F5DC;
         }
 
-        .pane {
+        .house__pane {
             position: absolute;
             width: 43%;
             height: 43%;
             border: 4px solid #000;
         }
 
-        .pane:nth-child(1) {
+        .house__pane:nth-child(1) {
             top: 0;
             left: 0;
         }
 
-        .pane:nth-child(2) {
+        .house__pane:nth-child(2) {
             top: 0;
             left: 50%;
         }
 
-        .pane:nth-child(3) {
+        .house__pane:nth-child(3) {
             top: 50%;
             left: 0;
         }
 
-        .pane:nth-child(4) {
+        .house__pane:nth-child(4) {
             top: 50%;
             left: 50%;
         }
 
-        .door {
+        .house__door {
             position: absolute;
             top: 100px;
             right: 0;
             width: 80px;
             height: 200px;
             background-color: #8B3A62;
-
         }
 
-        .handle {
+        .house__handle {
             position: absolute;
             width: 5px;
             height: 5px;
@@ -95,53 +83,45 @@
             right: 7px ;
             top: 50%;
             transform: translateY(-50%);
-
-
         }
 
-        .chimney {
+        .house__chimney {
             position: absolute;
             top: -50px;
             left: 232px;
             width: 23px;
             height: 70px;
-            background-color: 	#CD6090;
+            background-color: #CD6090;
             z-index: -1;
         }
 
-        .grass {
-            position: absolute ;
-            top: 222px; /* Выступает сверху */
-            left: -61px; /* Выступает слева */
-            right: -230px; /* Выступает справа */
-            bottom: -222px; /* Выступает снизу */
+        .house__grass {
+            position: absolute;
+            top: 222px;
+            left: -61px;
+            right: -230px;
+            bottom: -222px;
             background-color: green;
             z-index: -3;
-
-
         }
-
-
-
     </style>
 </head>
 <body>
 <div class="house">
-    <div class="roof"></div>
-    <div class="walls">
-        <div class="window">
-            <div class="pane"></div>
-            <div class="pane"></div>
-            <div class="pane"></div>
-            <div class="pane"></div>
+    <div class="house__roof"></div>
+    <div class="house__walls">
+        <div class="house__window">
+            <div class="house__pane"></div>
+            <div class="house__pane"></div>
+            <div class="house__pane"></div>
+            <div class="house__pane"></div>
         </div>
-        <div class="door">
-            <div class="handle"></div>
+        <div class="house__door">
+            <div class="house__handle"></div>
         </div>
     </div>
-    <div class="chimney"></div>
-    <div class="grass"></div>
-
+    <div class="house__chimney"></div>
+    <div class="house__grass"></div>
 </div>
 </body>
 </html>
