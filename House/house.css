@@ -4,11 +4,18 @@
     height: 150px;
 }
 
+body, html{
+    height:100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .house__roof {
     position: absolute;
     top: -70px;
-    left: -250px;
-    border-left: 150px solid transparent;
+    left: -20px;
+    border-left: 110px solid transparent;
     border-right: 300px solid transparent;
     border-bottom: 120px solid #6495ED;
 }
