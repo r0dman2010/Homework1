@@ -8,13 +8,13 @@
     border-radius: 10px;
     border: 1px solid green;
     padding: 15px;
+    }
 
-    /* Styles for highload1 */
     #highload1 {
         display: none;
     }
 
-    /* Toggle button 1 styles */
+
     #highload1 + .lb1 {
         display: inline-block;
         position: relative;
@@ -22,12 +22,12 @@
         height: 20px;
         border-radius: 20px;
         cursor: pointer;
-        background-color: #ccc; /* Default background color */
+        background-color: #ccc;
         transition: all .3s;
     }
 
     #highload1:checked + .lb1 {
-        background-color: green; /* Background color when checked */
+        background-color: green;
     }
 
     #highload1 + .lb1::before {
@@ -61,12 +61,12 @@
         color: #fff;
     }
 
-    /* Styles for highload2 */
+
     #highload2 {
         display: none;
     }
 
-    /* Toggle button 2 styles */
+
     #highload2 + .lb2 {
         display: inline-block;
         position: relative;
@@ -74,12 +74,12 @@
         height: 20px;
         border-radius: 20px;
         cursor: pointer;
-        background-color: #ccc; /* Default background color */
+        background-color: #ccc;
         transition: all .3s;
     }
 
     #highload2:checked + .lb2 {
-        background-color: green; /* Background color when checked */
+        background-color: green;
     }
 
     #highload2 + .lb2::before {

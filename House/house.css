@@ -71,7 +71,7 @@ body, html{
     right: 0;
     width: 80px;
     height: 200px;
-    background-color: #8B3A62;
+    background-color:#8B3A62;
 }
 
 .house__handle {
@@ -91,7 +91,7 @@ body, html{
     left: 232px;
     width: 23px;
     height: 70px;
-    background-color: #CD6090;
+    background-color:#CD6090;
     z-index: -1;
 }
 
@@ -101,6 +101,6 @@ body, html{
     left: -61px;
     right: -230px;
     bottom: -222px;
-    background-color: green;
+    background-color:#CD33;
     z-index: -3;
 }
