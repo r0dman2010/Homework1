@@ -1,115 +1,106 @@
- .house {
-     position: relative;
-     width: 15vw;
-     height: 15vw;
- }
-
-.roof {
-    position: absolute;
-    top: 0.1vw;
-    right: -4vw; /* Изменено на отрицательное значение, чтобы верхний угол был левее */
-    height: 0;
-    border-left: 8vw solid transparent; /* Левый бордер - треугольник */
-    border-right: 12vw solid transparent; /* Правый бордер - треугольник */
-    border-bottom: 4.5vw solid #6495ED; /* Нижний бордер - основание крыши */
+.house__wrapper {
+    position: relative;
+    width: 150px;
+    height: 150px;
 }
 
-body, html {
-    height: 100%;
+body, html{
+    height:100%;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.container {
-    text-align: center;
-}
-
-.walls {
+.house__roof {
     position: absolute;
-    top: 4.5vw;
-    width: 15vw;
-    height: 10.5vw;
-    background-color: 	#CD6090;
+    top: -70px;
+    left: -20px;
+    border-left: 110px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 120px solid #6495ED;
 }
 
-.window {
+.house__walls {
     position: absolute;
-    top: 2vw;
-    left: 1vw;
-    width: 4vw; /* уменьшен размер окна */
-    height: 4vw; /* уменьшен размер окна */
-    background-color: #F5F5DC; /* бежевый цвет окна */
-
+    top: 45px;
+    width: 300px;
+    height: 300px;
+    background-color: #CD6090;
+    z-index: -1;
 }
 
-.pane {
+.house__window {
     position: absolute;
-    width: 50%;
-    height: 50%;
-    border: 0.3vw solid #000;
+    top: 80px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #F5F5DC;
 }
 
-.pane:nth-child(1) {
+.house__pane {
+    position: absolute;
+    width: 43%;
+    height: 43%;
+    border: 4px solid #000;
+}
+
+.house__pane:nth-child(1) {
     top: 0;
     left: 0;
 }
 
-.pane:nth-child(2) {
+.house__pane:nth-child(2) {
     top: 0;
     left: 50%;
 }
 
-.pane:nth-child(3) {
+.house__pane:nth-child(3) {
     top: 50%;
     left: 0;
 }
 
-.pane:nth-child(4) {
+.house__pane:nth-child(4) {
     top: 50%;
     left: 50%;
 }
 
-.door {
+.house__door {
     position: absolute;
-    top: 3.5vw;
+    top: 100px;
     right: 0;
-    width: 4vw;
-    height: 7vw;
-    background-color: #8B3A62;
-
+    width: 80px;
+    height: 200px;
+    background-color:#8B3A62;
 }
 
-.handle {
+.house__handle {
     position: absolute;
-    width: 0.5vw;
-    height: 0.5vw;
+    width: 5px;
+    height: 5px;
     background-color: black;
     border-radius: 50%;
-    right: 0.7vw;
+    right: 7px ;
     top: 50%;
     transform: translateY(-50%);
-
-
 }
 
-.chimney {
+.house__chimney {
     position: absolute;
-    top: 0.5vw;
-    left: 12vw;
-    width: 2vw;
-    height: 2.67vw;
-    background-color: 	#CD6090;
+    top: -50px;
+    left: 232px;
+    width: 23px;
+    height: 70px;
+    background-color: #CD6090;
     z-index: -1;
 }
 
-.grass {
+.house__grass {
     position: absolute;
-    top: 70px; /* Выступает сверху */
-    left: -100px; /* Выступает слева */
-    right: -100px; /* Выступает справа */
-    bottom: -25px; /* Выступает снизу */
-    background-color: green;
-    z-index: -1;
-}
+    top: 222px;
+    left: -61px;
+    right: -230px;
+    bottom: -222px;
+    background-color: #00FF00;
+    z-index: -3;
+}}
