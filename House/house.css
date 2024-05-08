@@ -91,7 +91,7 @@ body, html{
     left: 232px;
     width: 23px;
     height: 70px;
-    background-color:#CD6090;
+    background-color: #CD6090;
     z-index: -1;
 }
 
@@ -101,6 +101,6 @@ body, html{
     left: -61px;
     right: -230px;
     bottom: -222px;
-    background-color:#00FF00;
+    background-color: #00FF00;
     z-index: -3;
 }}
