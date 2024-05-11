@@ -1,0 +1,800 @@
+.buttons1 {
+    height: 443px;
+    width: 1180px;
+}
+
+.text {
+    position: absolute;
+    left: 130px;
+    top: 79px;
+    width: 114px;
+    height: 29px;
+    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
+    font-weight: bold; /* Устанавливаем полужирное начертание */
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5D5D5D; /* Цвет текста */
+}
+
+.text2 {
+    position: absolute;
+    left: 130px;
+    top: 158px;
+    width: 65px;
+    height: 24px;
+    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
+    font-weight: 500; /* Устанавливаем полужирное начертание */
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #989494; /* Цвет текста */
+}
+
+
+.custom-button1 {
+    position: absolute;
+    left: 130px;
+    top: 197px;
+    width: 180px;
+    height: 49px;
+    background-color: #5faffa;
+    border: 5px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(155,155,155,0.5);
+    margin-right: 20px;
+}
+
+.custom-default {
+    color: gray;
+}
+
+.custom-default {
+    height: 88px;
+    width: 1180px;
+}
+
+.custom-button2 {
+    position: absolute;
+    left: 330px;
+    top: 197px;
+    width: 180px;
+    height: 49px;
+    box-shadow: 0 2px 2px rgba(155,155,155,0.5); /* Внешняя тень */
+    border-radius: 5px; /* Закругление углов */
+    border: 5px;
+    background-color: #F89052;
+    color: white;
+}
+
+.custom-button3 {
+    position: absolute;
+    left: 530px;
+    top: 197px;
+    width: 180px;
+    height: 49px;
+    border-radius: 5px; /* Закругление углов */
+    background-color: #60CF57; /* Цвет фона */
+    box-shadow: 0 2px 2px rgba(155,155,155,0.5); /* Внешняя тень */
+    border: 5px;
+    color: white;
+}
+
+.custom-button4 {
+    position: absolute;
+    left: 730px;
+    top: 197px;
+    width: 180px;
+    height: 49px;
+    border-radius: 5px; /* Закругление углов */
+    background-color: #F05B5B; /* Цвет фона */
+    box-shadow: 0 2px 2px rgba(155,155,155,0.5); /* Внешняя тень */
+    color: white;
+    border: 5px;
+}
+
+.custom-button5 {
+    position: absolute;
+    left: 930px;
+    top: 197px;
+    width: 180px;
+    height: 49px;
+    border-radius: 5px; /* Закругление углов */
+    background-color: #FFCF31; /* Цвет фона */
+    box-shadow: 0 2px 2px rgba(155,155,155,0.5);
+    color: white;
+    border: 5px;
+}
+
+.custom-button6 {
+    position: absolute;
+    left: 1130px;
+    top: 197px;
+    width: 180px;
+    height: 49px;
+    border-radius: 5px; /* Закругление углов */
+    background-color: #0FBDB4; /* Цвет фона */
+    box-shadow: 0 2px 2px rgba(155,155,155,0.5); /* Внешняя тень */
+    border: 5px;
+    color: white;
+}
+
+.text3 {
+    position: absolute;
+    left: 130px;
+    top: 296px;
+    width: 53px;
+    height: 24px;
+    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
+    font-weight: 500; /* Устанавливаем полужирное начертание */
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #989494; /* Цвет текста */
+}
+
+.custom-button7 {
+    position: absolute;
+    left: 130px;
+    top: 335px;
+    width: 180px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #447FDE;
+    border: 5px;
+    color: white;
+}
+
+.custom-button8 {
+    position: absolute;
+    left: 330px;
+    top: 335px;
+    width: 180px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #DC7F47;
+    border: 5px;
+    color: white;
+}
+
+.custom-button9 {
+    position: absolute;
+    left: 530px;
+    top: 335px;
+    width: 180px;
+    height: 49px;
+    border-radius: 5px; /* Закругление углов */
+    background-color: #4ABA42; /* Цвет фона */
+    border: 5px;
+    color: white;
+}
+
+.custom-button10 {
+    position: absolute;
+    left: 730px;
+    top: 335px;
+    width: 180px;
+    height: 49px;
+    border-radius: 5px; /* Закругление углов */
+    background-color: #BF4141; /* Цвет фона */
+    border: 5px;
+    color: white;
+}
+
+.custom-button11 {
+    position: absolute;
+    left: 930px;
+    top: 335px;
+    width: 180px;
+    height: 49px;
+    border-radius: 5px; /* Закругление углов */
+    background-color: #EEBD1C; /* Цвет фона */
+    border: 5px;
+    color: white;
+}
+
+.custom-button12 {
+    position: absolute;
+    left: 1130px;
+    top: 335px;
+    width: 180px;
+    height: 49px;
+    border-radius: 5px; /* Закругление углов */
+    background-color: #0CA099; /* Цвет фона */
+    border: 5px;
+    color: white;
+}
+
+.text4 {
+    position: absolute;
+    left: 130px;
+    top: 434px;
+    width: 57px;
+    height: 24px;
+    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
+    font-weight: 500; /* Устанавливаем полужирное начертание */
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #989494; /* Цвет текста */
+}
+
+.custom-button13 {
+    position: absolute;
+    left: 130px;
+    top: 473px;
+    width: 180px;
+    height: 49px;
+    border-radius: 5px; /* Закругление углов */
+    background-color: #3B6FC2; /* Цвет фона */
+    border: 5px;
+    color: white;
+}
+
+.custom-button14 {
+    position: absolute;
+    left: 330px;
+    top: 473px;
+    width: 180px;
+    height: 49px;
+    border-radius: 5px; /* Закругление углов */
+    background-color: #BD6937; /* Цвет фона */
+    border: 5px;
+    color: white;
+}
+
+.custom-button15 {
+    position: absolute;
+    left: 530px;
+    top: 473px;
+    width: 180px;
+    height: 49px;
+    border-radius: 5px; /* Закругление углов */
+    background-color: #3DA235; /* Цвет фона */
+    border: 5px;
+    color: white;
+}
+
+.custom-button16 {
+    position: absolute;
+    left: 730px;
+    top: 473px;
+    width: 180px;
+    height: 49px;
+    border-radius: 5px; /* Закругление углов */
+    background-color: #AC2D2D; /* Цвет фона */
+    border: 5px;
+    color: white;
+}
+
+.custom-button17 {
+    position: absolute;
+    left: 930px;
+    top: 473px;
+    width: 180px;
+    height: 49px;
+    border-radius: 5px; /* Закругление углов */
+    background-color: #D6A917; /* Цвет фона */
+    border: 5px;
+    color: white;
+}
+
+.custom-button18 {
+    position: absolute;
+    left: 1130px;
+    top: 473px;
+    width: 180px;
+    height: 49px;
+    border-radius: 5px; /* Закругление углов */
+    background-color: #0A8A83; /* Цвет фона */
+    border: 5px;
+    color: white;
+}
+
+.text5 {
+    position: absolute;
+    left: 130px;
+    top: 622px;
+    width: 63px;
+    height: 29px;
+    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
+    font-weight: bold; /* Устанавливаем полужирное начертание */
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5D5D5D; /* Цвет текста */
+}
+
+.custom-tabs1-line1 {
+    position: absolute;
+    left: 131px;
+    top: 737.5px;
+    width: 115px;
+    height: 1px;
+    border-bottom: 1px solid #52BE80; /* Зеленая линия */
+}
+
+.custom-tabs1-line2 {
+    position: absolute;
+    left: 247.5px;
+    top: 738px;
+    width: 115px;
+    height: 1px;
+    border-bottom: 1px solid #D8D8D8; /* Серая линия */
+}
+
+.custom-tabs1-line3 {
+    position: absolute;
+    left: 363px;
+    top: 738px;
+    width: 115px;
+    height: 1px;
+    border-bottom: 1px solid #D8D8D8; /* Серая линия */
+}
+
+.custom-tabs1-line4 {
+    position: absolute;
+    left: 478px;
+    top: 738px;
+    width: 115px;
+    height: 1px;
+    border-bottom: 1px solid #D8D8D8; /* Серая линия */
+}
+
+.custom-tabs1-text1 {
+    position: absolute;
+    left: 500px;
+    top: 701px;
+    width: 72px;
+    height: 24px;
+    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ACA8A8; /* Серый цвет текста */
+}
+
+.custom-tabs1-text2 {
+    position: absolute;
+    left: 398px;
+    top: 701px;
+    width: 46px;
+    height: 24px;
+    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ACA8A8; /* Серый цвет текста */
+}
+
+.custom-tabs1-text3 {
+    position: absolute;
+    left: 282px;
+    top: 701px;
+    width: 47px;
+    height: 24px;
+    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ACA8A8; /* Серый цвет текста */
+}
+
+.custom-tabs1-text4 {
+    position: absolute;
+    left: 168px;
+    top: 701px;
+    width: 41px;
+    height: 24px;
+    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5D5D5D; /* Темно-серый цвет текста */
+}
+
+
+.custom-tabs1-Rectangle1 {
+    position: absolute;
+    left: 130px;
+    top: 799px;
+    width: 91px;
+    height: 44px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #52BE80;
+}
+
+.custom-tabs1-Rectangle2 {
+    position: absolute;
+    left: 221px;
+    top: 799px;
+    width: 97px;
+    height: 44px;
+    border: 1px solid #D8D8D8;
+}
+
+.custom-tabs1-Rectangle3 {
+    position: absolute;
+    left: 317px;
+    top: 799px;
+    width: 96px;
+    height: 44px;
+    border: 1px solid #D8D8D8;
+}
+
+.custom-tabs1-Rectangle4 {
+    position: absolute;
+    left: 412px;
+    top: 799px;
+    width: 122px;
+    height: 44px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #D8D8D8;
+}
+
+.custom-tabs1-Rectangle1-text1 {
+    position: absolute;
+    left: 155px;
+    top: 809px;
+    width: 41px;
+    height: 24px;
+    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #FFFFFF; /* Белый цвет текста */
+}
+
+.custom-tabs1-Rectangle2-text1 {
+    position: absolute;
+    left: 246px;
+    top: 809px;
+    width: 47px;
+    height: 24px;
+    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ACA8A8; /* Серый цвет текста */
+}
+
+.custom-tabs1-Rectangle3-text1 {
+    position: absolute;
+    left: 342px;
+    top: 809px;
+    width: 46px;
+    height: 24px;
+    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ACA8A8; /* Серый цвет текста */
+}
+
+.custom-tabs1-Rectangle4-text1 {
+    position: absolute;
+    left: 437px;
+    top: 809px;
+    width: 72px;
+    height: 24px;
+    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ACA8A8; /* Серый цвет текста */
+}
+
+.custom-tabs2-line1 {
+    position: absolute;
+    left: 713px;
+    top: 737.5px;
+    width: 115px;
+    height: 1px;
+    border-bottom: 1px solid #E74C3C; /* Красная линия */
+}
+
+.custom-tabs2-line2 {
+    position: absolute;
+    left: 829.5px;
+    top: 738px;
+    width: 115px;
+    height: 1px;
+    border-bottom: 1px solid #D8D8D8; /* Серая линия */
+}
+
+.custom-tabs2-line3 {
+    position: absolute;
+    left: 945px;
+    top: 738px;
+    width: 115px;
+    height: 1px;
+    border-bottom: 1px solid #D8D8D8; /* Серая линия */
+}
+
+.custom-tabs2-line4 {
+    position: absolute;
+    left: 1060px;
+    top: 738px;
+    width: 115px;
+    height: 1px;
+    border-bottom: 1px solid #D8D8D8; /* Серая линия */
+}
+
+.custom-tabs2-text1 {
+    position: absolute;
+    left: 1082px;
+    top: 701px;
+    width: 72px;
+    height: 24px;
+    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ACA8A8; /* Серый цвет текста */
+}
+
+.custom-tabs2-text2 {
+    position: absolute;
+    left: 980px;
+    top: 701px;
+    width: 46px;
+    height: 24px;
+    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5D5D5D; /* Темно-серый цвет текста */
+}
+
+.custom-tabs2-text3 {
+    position: absolute;
+    left: 864px;
+    top: 701px;
+    width: 47px;
+    height: 24px;
+    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ACA8A8; /* Серый цвет текста */
+}
+
+.custom-tabs2-text4 {
+    position: absolute;
+    left: 750px;
+    top: 701px;
+    width: 41px;
+    height: 24px;
+    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5D5D5D; /* Темно-серый цвет текста */
+}
+
+.rectangle1-tabs2 {
+    position: absolute;
+    left: 1009px;
+    top: 720px;
+    width: 17px;
+    height: 22px;
+    background-color: #5D5D5D; /* Цвет фона */
+}
+
+.custom-tabs2-Rectangle1 {
+    position: absolute;
+    left: 713px;
+    top: 799px;
+    width: 91px;
+    height: 44px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #E74C3C;
+}
+
+.custom-tabs2-Rectangle2 {
+    position: absolute;
+    left: 804px;
+    top: 799px;
+    width: 97px;
+    height: 44px;
+    border: 1px solid #D8D8D8;
+}
+
+.custom-tabs2-Rectangle3 {
+    position: absolute;
+    left: 900px;
+    top: 799px;
+    width: 96px;
+    height: 44px;
+    border: 1px solid #D8D8D8;
+}
+
+.custom-tabs2-Rectangle4 {
+    position: absolute;
+    left: 995px;
+    top: 799px;
+    width: 122px;
+    height: 44px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #D8D8D8;
+}
+
+.custom-tabs2-Rectangle1-text1 {
+    position: absolute;
+    left: 738px;
+    top: 809px;
+    width: 41px;
+    height: 24px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.custom-tabs2-Rectangle2-text1 {
+    position: absolute;
+    left: 829px;
+    top: 809px;
+    width: 47px;
+    height: 24px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ACA8A8;
+}
+
+.custom-tabs2-Rectangle3-text1 {
+    position: absolute;
+    left: 925px;
+    top: 809px;
+    width: 46px;
+    height: 24px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5D5D5D;
+}
+
+.custom-tabs2-Rectangle4-text1 {
+    position: absolute;
+    left: 1020px;
+    top: 809px;
+    width: 72px;
+    height: 24px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ACA8A8;
+}
+
+.rectangle2-tabs2 {
+    position: absolute;
+    left: 978px;
+    top: 838px;
+    width: 17px;
+    height: 22px;
+    background-color: #5D5D5D; /* Цвет заливки */
+}
+
+.text6 {
+    position: absolute;
+    left: 130px;
+    top: 960px;
+    width: 165px;
+    height: 29px;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: normal;
+    text-align: left;
+    font-weight: bold; /* Устанавливаем жирный шрифт */
+    color: #5D5D5D; /* Цвет текста */
+}
+
+.square-normal1,
+.square-normal2,
+.square-normal3,
+.square-normal4,
+.square-normal5,
+.square-normal6,
+.square-normal7,
+.square-normal8,
+.square-normal9,
+.square-normal10 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px; /* Радиус скругления углов */
+    border: 1px solid #AEAEAE; /* Толщина и цвет границы */
+}
+
+.square-normal1 {
+    left: 210px;
+    top: 1039px;
+    background-color: #F2F2F2; /* Цвет заливки */
+}
+
+.square-normal2 {
+    left: 290px;
+    top: 1039px;
+    background-color: #F2F2F2; /* Цвет заливки */
+}
+
+.square-normal3 {
+    left: 368px;
+    top: 1039px;
+    background-color: #F2F2F2; /* Цвет заливки */
+}
+
+.square-normal4 {
+    left: 448px;
+    top: 1039px;
+    background-color: #F2F2F2; /* Цвет заливки */
+}
+
+.square-normal5 {
+    left: 130px;
+    top: 1119px;
+    background-color: #F9F9F9; /* Цвет заливки */
+}
+
+.square-normal6 {
+    left: 210px;
+    top: 1119px;
+    background-color: #F9F9F9; /* Цвет заливки */
+}
+
+.square-normal7 {
+    left: 290px;
+    top: 1119px;
+    background-color: #F9F9F9; /* Цвет заливки */
+}
+
+.square-normal8 {
+    left: 370px;
+    top: 1119px;
+    background-color: #F9F9F9; /* Цвет заливки */
+}
+
+.square-normal9 {
+    left: 130px;
+    top: 1039px;
+    background-color: #F2F2F2; /* Цвет заливки */
+}
+
+.square-normal10 {
+    left: 450px;
+    top: 1119px;
+    background-color: #F2F2F2; /* Цвет заливки */
+}
+
