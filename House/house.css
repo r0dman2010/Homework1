@@ -1,0 +1,106 @@
+.house__wrapper {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+body, html{
+    height:100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.house__roof {
+    position: absolute;
+    top: -70px;
+    left: -20px;
+    border-left: 110px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 120px solid #6495ED;
+}
+
+.house__walls {
+    position: absolute;
+    top: 45px;
+    width: 300px;
+    height: 300px;
+    background-color: #CD6090;
+    z-index: -1;
+}
+
+.house__window {
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #F5F5DC;
+}
+
+.house__pane {
+    position: absolute;
+    width: 43%;
+    height: 43%;
+    border: 4px solid #000;
+}
+
+.house__pane:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+
+.house__pane:nth-child(2) {
+    top: 0;
+    left: 50%;
+}
+
+.house__pane:nth-child(3) {
+    top: 50%;
+    left: 0;
+}
+
+.house__pane:nth-child(4) {
+    top: 50%;
+    left: 50%;
+}
+
+.house__door {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 80px;
+    height: 200px;
+    background-color:#8B3A62;
+}
+
+.house__handle {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+    right: 7px ;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.house__chimney {
+    position: absolute;
+    top: -50px;
+    left: 232px;
+    width: 23px;
+    height: 70px;
+    background-color:#CD6090;
+    z-index: -1;
+}
+
+.house__grass {
+    position: absolute;
+    top: 222px;
+    left: -61px;
+    right: -230px;
+    bottom: -222px;
+    background-color:#00FF00;
+    z-index: -3;
+}
