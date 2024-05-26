@@ -1,52 +1,97 @@
-.buttons1 {
-    height: 443px;
-    width: 1180px;
+.wrapper_buttons {
+    position: relative;
+    margin-left: 130px;
 }
 
-.text {
-    position: absolute;
-    left: 130px;
-    top: 79px;
-    width: 114px;
-    height: 29px;
-    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
-    font-weight: bold; /* Устанавливаем полужирное начертание */
-    font-size: 25px;
-    line-height: 29px;
-    letter-spacing: normal;
-    text-align: left;
-    color: #5D5D5D; /* Цвет текста */
-}
-
-.text2 {
-    position: absolute;
-    left: 130px;
-    top: 158px;
-    width: 65px;
-    height: 24px;
-    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
-    font-weight: 500; /* Устанавливаем полужирное начертание */
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: normal;
-    text-align: left;
-    color: #989494; /* Цвет текста */
-}
-
-
-.custom-button1 {
-    position: absolute;
-    left: 130px;
-    top: 197px;
+.button_default {
     width: 180px;
     height: 49px;
-    background-color: #5faffa;
     border: 5px;
     color: white;
     border-radius: 5px;
     box-shadow: 0 2px 2px rgba(155,155,155,0.5);
-    margin-right: 20px;
 }
+
+.button_position {
+    margin-right: 15px;
+}
+
+.button_background--primary {
+    background-color: #5faffa;
+}
+
+.button_background--secondary {
+    background-color: #F89052;
+}
+
+.button_background--success {
+    background-color: #60CF57;
+}
+
+.button_background--danger {
+    background-color: #F05B5B;
+}
+
+.button_background--warning {
+    background-color: #FFCF31;
+}
+
+.button_background--info {
+    background-color: #0FBDB4;
+}
+
+.button_background--primary-active {
+    background-color: #3B6FC2;
+}
+
+.button_background--secondary-active {
+    background-color: #DC7F47
+}
+
+.button_background--success-active {
+    background-color: #4ABA42;
+}
+
+.button_background--danger-active {
+    background-color: #BF4141;
+}
+
+.button_background--warning-active {
+    background-color: #EEBD1C;
+}
+
+.button_background--info-active {
+    background-color: #0CA099;
+}
+
+.button_background--primary-hover {
+    background-color: #447FDE;
+}
+
+.button_background--secondary-hover {
+    background-color: #DC7F47;
+}
+
+.button_background--success-hover {
+    background-color: #4ABA42;
+}
+
+.button_background--danger-hover {
+    background-color: #BF4141;
+}
+
+.button_background--warning-hover {
+    background-color: #EEBD1C;
+}
+
+.button_background--info-hover {
+    background-color: #0CA099;
+}
+
+
+
+
+
 
 .custom-default {
     color: gray;
@@ -55,173 +100,6 @@
 .custom-default {
     height: 88px;
     width: 1180px;
-}
-
-.custom-button2 {
-    position: absolute;
-    left: 330px;
-    top: 197px;
-    width: 180px;
-    height: 49px;
-    box-shadow: 0 2px 2px rgba(155,155,155,0.5); /* Внешняя тень */
-    border-radius: 5px; /* Закругление углов */
-    border: 5px;
-    background-color: #F89052;
-    color: white;
-}
-
-.custom-button3 {
-    position: absolute;
-    left: 530px;
-    top: 197px;
-    width: 180px;
-    height: 49px;
-    border-radius: 5px; /* Закругление углов */
-    background-color: #60CF57; /* Цвет фона */
-    box-shadow: 0 2px 2px rgba(155,155,155,0.5); /* Внешняя тень */
-    border: 5px;
-    color: white;
-}
-
-.custom-button4 {
-    position: absolute;
-    left: 730px;
-    top: 197px;
-    width: 180px;
-    height: 49px;
-    border-radius: 5px; /* Закругление углов */
-    background-color: #F05B5B; /* Цвет фона */
-    box-shadow: 0 2px 2px rgba(155,155,155,0.5); /* Внешняя тень */
-    color: white;
-    border: 5px;
-}
-
-.custom-button5 {
-    position: absolute;
-    left: 930px;
-    top: 197px;
-    width: 180px;
-    height: 49px;
-    border-radius: 5px; /* Закругление углов */
-    background-color: #FFCF31; /* Цвет фона */
-    box-shadow: 0 2px 2px rgba(155,155,155,0.5);
-    color: white;
-    border: 5px;
-}
-
-.custom-button6 {
-    position: absolute;
-    left: 1130px;
-    top: 197px;
-    width: 180px;
-    height: 49px;
-    border-radius: 5px; /* Закругление углов */
-    background-color: #0FBDB4; /* Цвет фона */
-    box-shadow: 0 2px 2px rgba(155,155,155,0.5); /* Внешняя тень */
-    border: 5px;
-    color: white;
-}
-
-.text3 {
-    position: absolute;
-    left: 130px;
-    top: 296px;
-    width: 53px;
-    height: 24px;
-    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
-    font-weight: 500; /* Устанавливаем полужирное начертание */
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: normal;
-    text-align: left;
-    color: #989494; /* Цвет текста */
-}
-
-.custom-button7 {
-    position: absolute;
-    left: 130px;
-    top: 335px;
-    width: 180px;
-    height: 49px;
-    border-radius: 5px;
-    background-color: #447FDE;
-    border: 5px;
-    color: white;
-}
-
-.custom-button8 {
-    position: absolute;
-    left: 330px;
-    top: 335px;
-    width: 180px;
-    height: 49px;
-    border-radius: 5px;
-    background-color: #DC7F47;
-    border: 5px;
-    color: white;
-}
-
-.custom-button9 {
-    position: absolute;
-    left: 530px;
-    top: 335px;
-    width: 180px;
-    height: 49px;
-    border-radius: 5px; /* Закругление углов */
-    background-color: #4ABA42; /* Цвет фона */
-    border: 5px;
-    color: white;
-}
-
-.custom-button10 {
-    position: absolute;
-    left: 730px;
-    top: 335px;
-    width: 180px;
-    height: 49px;
-    border-radius: 5px; /* Закругление углов */
-    background-color: #BF4141; /* Цвет фона */
-    border: 5px;
-    color: white;
-}
-
-.custom-button11 {
-    position: absolute;
-    left: 930px;
-    top: 335px;
-    width: 180px;
-    height: 49px;
-    border-radius: 5px; /* Закругление углов */
-    background-color: #EEBD1C; /* Цвет фона */
-    border: 5px;
-    color: white;
-}
-
-.custom-button12 {
-    position: absolute;
-    left: 1130px;
-    top: 335px;
-    width: 180px;
-    height: 49px;
-    border-radius: 5px; /* Закругление углов */
-    background-color: #0CA099; /* Цвет фона */
-    border: 5px;
-    color: white;
-}
-
-.text4 {
-    position: absolute;
-    left: 130px;
-    top: 434px;
-    width: 57px;
-    height: 24px;
-    font-family: "Roboto", sans-serif; /* Устанавливаем шрифт Roboto */
-    font-weight: 500; /* Устанавливаем полужирное начертание */
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: normal;
-    text-align: left;
-    color: #989494; /* Цвет текста */
 }
 
 .custom-button13 {
@@ -296,7 +174,7 @@
     color: white;
 }
 
-.text5 {
+.tab_position {
     position: absolute;
     left: 130px;
     top: 622px;
@@ -706,7 +584,7 @@
     background-color: #5D5D5D;
 }
 
-.text6 {
+.checkbox-position {
     position: absolute;
     left: 130px;
     top: 960px;
@@ -949,7 +827,7 @@
     background-color: #FFFFFF;
 }
 
-.text7 {
+.pagination-position {
     position: absolute;
     left: 130px;
     top: 1386px;
@@ -963,7 +841,7 @@
     color: #5D5D5D;
 }
 
-.text8 {
+.disabled-position {
     position: absolute;
     left: 108px;
     top: 1465px;
@@ -977,7 +855,7 @@
     color: #989494;
 }
 
-.text9 {
+.active-position {
     position: absolute;
     left: 207px;
     top: 1465px;
@@ -991,7 +869,7 @@
     color: #989494;
 }
 
-.text10 {
+.hover-position {
     position: absolute;
     left: 409px;
     top: 1465px;
@@ -1442,7 +1320,7 @@
     background-color: #F6F6F6;
 }
 
-.text11 {
+.fonts-position {
     position: absolute;
     left: 130px;
     top: 1987px;
@@ -1486,11 +1364,7 @@
     white-space: nowrap;
 }
 
-.text14 {
-    position: absolute;
-    left: 130px;
-    top: 2222px;
-    width: 329px;
+.header_h3 {
     height: 35px;
     font-family: 'Roboto Bold', sans-serif;
     font-size: 30px;
@@ -1501,12 +1375,15 @@
     white-space: nowrap;
 }
 
-.text15 {
+.header_h3-position {
     position: absolute;
     left: 130px;
-    top: 2287px;
-    width: 217px;
-    height: 24px;
+    top: 2222px;
+    width: 329px;
+}
+
+.header_h4 {
+
     font-family: 'Roboto Regular', sans-serif;
     font-size: 20px;
     line-height: 24px;
@@ -1514,6 +1391,14 @@
     text-align: left;
     color: #5D5D5D;
     white-space: nowrap;
+}
+
+.header_h4-position {
+    position: absolute;
+    left: 130px;
+    top: 2287px;
+    width: 217px;
+    height: 24px;
 }
 
 .text16 {
