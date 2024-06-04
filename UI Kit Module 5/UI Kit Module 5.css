@@ -89,7 +89,9 @@
 }
 
 
-
+.tabs {
+    position: relative;
+}
 
 
 
@@ -174,7 +176,7 @@
     color: white;
 }
 
-.tab_position {
+.tab-position {
     position: absolute;
     left: 130px;
     top: 622px;
@@ -470,15 +472,6 @@
     color: #5D5D5D; /* Темно-серый цвет текста */
 }
 
-.rectangle1-tabs2 {
-    position: absolute;
-    left: 1009px;
-    top: 720px;
-    width: 17px;
-    height: 22px;
-    background-color: #5D5D5D; /* Цвет фона */
-}
-
 .custom-tabs2-Rectangle1 {
     position: absolute;
     left: 713px;
@@ -575,14 +568,6 @@
     color: #ACA8A8;
 }
 
-.rectangle2-tabs2 {
-    position: absolute;
-    left: 978px;
-    top: 838px;
-    width: 17px;
-    height: 22px;
-    background-color: #5D5D5D;
-}
 
 .checkbox-position {
     position: absolute;
@@ -599,16 +584,7 @@
     color: #5D5D5D;
 }
 
-.square-normal1,
-.square-normal2,
-.square-normal3,
-.square-normal4,
-.square-normal5,
-.square-normal6,
-.square-normal7,
-.square-normal8,
-.square-normal9,
-.square-normal10 {
+.wrapper_checkboxes-normal {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -616,216 +592,205 @@
     border: 1px solid #AEAEAE;
 }
 
-.square-normal1 {
+.checkbox1-normal-position {
     left: 210px;
     top: 1039px;
-    background-color: #F2F2F2;
 }
 
-.square-normal2 {
+.checkbox2-normal-position {
     left: 290px;
     top: 1039px;
-    background-color: #F2F2F2;
 }
 
-.square-normal3 {
+.checkbox3-normal-position {
     left: 368px;
     top: 1039px;
-    background-color: #F2F2F2;
 }
 
-.square-normal4 {
+.checkbox4-normal-position {
     left: 448px;
     top: 1039px;
-    background-color: #F2F2F2;
 }
 
-.square-normal5 {
+.checkbox5-normal-position {
     left: 130px;
     top: 1119px;
-    background-color: #F9F9F9;
+
 }
 
-.square-normal6 {
+.checkbox6-normal-position {
     left: 210px;
     top: 1119px;
     background-color: #F9F9F9;
 }
 
-.square-normal7 {
+.checkbox7-normal-position {
     left: 290px;
     top: 1119px;
     background-color: #F9F9F9;
 }
 
-.square-normal8 {
+.checkbox8-normal-position {
     left: 370px;
     top: 1119px;
     background-color: #F9F9F9;
 }
 
-.square-normal9 {
+.checkbox9-normal-position {
     left: 130px;
     top: 1039px;
     background-color: #F2F2F2;
 }
 
-.square-normal10 {
+.checkbox10-normal-position {
     left: 450px;
     top: 1119px;
+    background-color: #F9F9F9;
+}
+
+.checkbox1-normal-background {
     background-color: #F2F2F2;
 }
 
-.square-checked1,
-.square-checked2,
-.square-checked3,
-.square-checked4,
-.square-checked5,
-.square-checked6,
-.square-checked7,
-.square-checked8,
-.square-checked9,
-.square-checked10 {
+.checkbox2-normal-background {
+    background-color: #F2F2F2;
+}
+
+.checkbox3-normal-background {
+    background-color: #F2F2F2;
+}
+
+.checkbox4-normal-background {
+    background-color: #F2F2F2;
+}
+
+.checkbox5-normal-background {
+    background-color: #F9F9F9;
+}
+
+.checkbox6-normal-background {
+    background-color: #F9F9F9;
+}
+
+.checkbox7-normal-background {
+    background-color: #F9F9F9;
+}
+
+.checkbox8-normal-background {
+    background-color: #F9F9F9;
+}
+
+.checkbox9-normal-background {
+    background-color: #F2F2F2;
+}
+
+.checkbox9-normal-background {
+    background-color: #F9F9F9;
+}
+
+.wrapper_checkboxes-checked {
     position: absolute;
     width: 30px;
     height: 30px;
     border-radius: 5px; /* Радиус скругления углов */
 }
 
-.square-checked1 {
+.checkbox1-checked-position {
     left: 130px;
     top: 1199px;
-    background-color: #52BE80; /* Цвет заливки */
 }
 
-.square-checked2 {
+.checkbox2-checked-position {
     left: 210px;
     top: 1199px;
-    background-color: #F89052; /* Цвет заливки */
 }
 
-.square-checked3 {
+.checkbox3-checked-position {
     left: 290px;
     top: 1199px;
-    background-color: #4E92FF; /* Цвет заливки */
 }
 
-.square-checked4 {
+.checkbox4-checked-position {
     left: 370px;
     top: 1199px;
-    background-color: #F05B5B; /* Цвет заливки */
 }
 
-.square-checked5 {
+.checkbox5-checked-position {
     left: 450px;
     top: 1199px;
-    background-color: #3C3B3B; /* Цвет заливки */
 }
 
-.square-checked6 {
+.checkbox6-checked-position {
     left: 130px;
     top: 1256px;
-    background-color: rgba(82, 190, 128, 0.59); /* Цвет заливки */
 }
 
-.square-checked7 {
+.checkbox7-checked-position {
     left: 210px;
     top: 1256px;
-    background-color: rgba(246, 167, 120, 0.59); /* Цвет заливки */
 }
 
-.square-checked8 {
+.checkbox8-checked-position {
     left: 290px;
     top: 1256px;
-    background-color: rgba(78, 146, 255, 0.59); /* Цвет заливки */
 }
 
-.square-checked9 {
+.checkbox9-checked-position {
     left: 370px;
     top: 1256px;
-    background-color: rgba(240, 91, 91, 0.59); /* Цвет заливки */
 }
 
-.square-checked10 {
+.checkbox10-checked-position {
     left: 450px;
     top: 1256px;
-    background-color: rgba(60, 59, 59, 0.59); /* Цвет заливки */
 }
 
-.rectangle-checkboxes-path1,
-.rectangle-checkboxes-path2,
-.rectangle-checkboxes-path3,
-.rectangle-checkboxes-path4,
-.rectangle-checkboxes-path5,
-.rectangle-checkboxes-path6,
-.rectangle-checkboxes-path7,
-.rectangle-checkboxes-path8,
-.rectangle-checkboxes-path9,
-.rectangle-checkboxes-path10 {
-    position: absolute;
-    width: 19px;
-    height: 14px;
+.checkbox1-checked-background {
+    background-color: #52BE80;
 }
 
-.rectangle-checkboxes-path1 {
-    left: 456px;
-    top: 1264px;
-    background-color: rgba(255, 255, 255, 0.59);
+.checkbox2-checked-background {
+    background-color: #F89052;
 }
 
-.rectangle-checkboxes-path2 {
-    left: 376px;
-    top: 1264px;
-    background-color: rgba(255, 255, 255, 0.59);
+.checkbox3-checked-background {
+    background-color: #4E92FF;
 }
 
-.rectangle-checkboxes-path3 {
-    left: 296px;
-    top: 1264px;
-    background-color: rgba(255, 255, 255, 0.59);
+.checkbox4-checked-background {
+    background-color: #F05B5B;
 }
 
-.rectangle-checkboxes-path4 {
-    left: 216px;
-    top: 1264px;
-    background-color: rgba(255, 255, 255, 0.59);
+.checkbox5-checked-background {
+    background-color: #3C3B3B;
 }
 
-.rectangle-checkboxes-path5 {
-    left: 136px;
-    top: 1264px;
-    background-color: rgba(255, 255, 255, 0.59);
+.checkbox6-checked-background {
+    background-color: rgba(82, 190, 128, 0.59);
 }
 
-.rectangle-checkboxes-path6 {
-    left: 456px;
-    top: 1207px;
-    background-color: #FFFFFF;
+.checkbox7-checked-background {
+    background-color: rgba(246, 167, 120, 0.59);
 }
 
-.rectangle-checkboxes-path7 {
-    left: 376px;
-    top: 1207px;
-    background-color: #FFFFFF;
+.checkbox8-checked-background {
+    background-color: rgba(78, 146, 255, 0.59);
 }
 
-.rectangle-checkboxes-path8 {
-    left: 296px;
-    top: 1207px;
-    background-color: #FFFFFF;
+.checkbox9-checked-background {
+    background-color: rgba(240, 91, 91, 0.59);
 }
 
-.rectangle-checkboxes-path9 {
-    left: 216px;
-    top: 1207px;
-    background-color: #FFFFFF;
+.checkbox10-checked-background {
+    background-color: rgba(60, 59, 59, 0.59);
 }
 
-.rectangle-checkboxes-path10 {
-    left: 136px;
-    top: 1207px;
-    background-color: #FFFFFF;
+.wrapper_checkboxes-checked {
+    background-image: url('Path Copy 2-1.svg');
+    background-size: contain;
 }
+
+
 
 .pagination-position {
     position: absolute;
@@ -883,80 +848,80 @@
     color: #989494;
 }
 
-.square-paginations1,
-.square-paginations2,
-.square-paginations3,
-.square-paginations4,
-.square-paginations5,
-.square-paginations6,
-.square-paginations7,
-.square-paginations8,
-.square-paginations9,
-.square-paginations10 {
+.square-pagination1,
+.square-pagination2,
+.square-pagination3,
+.square-pagination4,
+.square-pagination5,
+.square-pagination6,
+.square-pagination7,
+.square-pagination8,
+.square-pagination9,
+.square-pagination10 {
     position: absolute;
     border-radius: 5px;
     width: 50px;
     height: 50px;
 }
 
-.square-paginations1 {
+.square-pagination1 {
     left: 129px;
     top: 1519px;
     background-color: #F6F6F6;
 }
 
-.square-paginations2 {
+.square-pagination2 {
     left: 199px;
     top: 1519px;
     background-color: #52BE80;
 }
 
-.square-paginations3{
+.square-pagination3{
     left: 269px;
     top: 1519px;
     background-color: #F6F6F6;
 }
 
-.square-paginations4 {
+.square-pagination4 {
     left: 339px;
     top: 1519px;
     background-color: #F6F6F6;
 }
 
-.square-paginations5 {
+.square-pagination5 {
     left: 409px;
     top: 1519px;
     background-color: #E0E0E0;
 }
 
-.square-paginations6 {
+.square-pagination6 {
     left: 479px;
     top: 1519px;
     background-color: #F6F6F6;
 }
 
-.square-paginations7 {
+.square-pagination7 {
     left: 549px;
     top: 1519px;
     background-color: #F6F6F6;
 }
 
-.square-paginations8 {
+.square-pagination8 {
     left: 619px;
     top: 1519px;
 }
 
-.square-paginations9 {
+.square-pagination9 {
     left: 689px;
     top: 1519px;
 }
 
-.square-paginations10 {
+.square-pagination10 {
     left: 759px;
     top: 1519px;
 }
 
-.square-paginations-text1 {
+.square-pagination-text1 {
     position: absolute;
     left: 216px;
     top: 1530px;
@@ -970,7 +935,7 @@
     color: #FFFFFF;
 }
 
-.square-paginations-text2 {
+.square-pagination-text2 {
     position: absolute;
     left: 287px;
     top: 1530px;
@@ -984,7 +949,7 @@
     color: #5D5D5D;
 }
 
-.square-paginations-text3 {
+.square-pagination-text3 {
     position: absolute;
     left: 357px;
     top: 1530px;
@@ -998,7 +963,7 @@
     color: #5D5D5D;
 }
 
-.square-paginations-text4 {
+.square-pagination-text4 {
     position: absolute;
     left: 427px;
     top: 1530px;
@@ -1012,7 +977,7 @@
     color: #5D5D5D;
 }
 
-.square-paginations-text5 {
+.square-pagination-text5 {
     position: absolute;
     left: 497px;
     top: 1530px;
@@ -1334,7 +1299,7 @@
     color: #5D5D5D;
 }
 
-.text12 {
+.header_h1 {
     position: absolute;
     left: 130px;
     top: 2066px;
@@ -1349,7 +1314,7 @@
     white-space: nowrap;
 }
 
-.text13 {
+.header_h2 {
     position: absolute;
     left: 130px;
     top: 2150px;
@@ -1401,7 +1366,7 @@
     height: 24px;
 }
 
-.text16 {
+.header_h5 {
     position: absolute;
     left: 130px;
     top: 2341px;
